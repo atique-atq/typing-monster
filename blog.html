@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
 </head>
-<body style="padding: 30px">
-    <h1>Difference between local storage and session storage</h1>
+<body style="padding: 20px">
+    <h3>Difference between local storage and session storage</h3>
     <p> <i> <strong> Answer:</strong></i> Local storage keeps data on the client's computer in a key-value pair style and has no expiration limit. On the other hand, session storage keeps data on the client's computer only for the current session, what expires on closing the browser tab. Local storage's data are accessible from any window where sessoin storage's data are accessible from some window. Local storage has larger capacity comparing to session storage.</p>
 
     <br>
-    <h1>Difference between global scope and block scope in javascript.</h1>
+    <h3>Difference between global scope and block scope in javascript.</h3>
     <p> <i> <strong> Answer:</strong></i> A variables what is defined outside of any curly brackets or any function, is known as global variables which has global scope what  means that the variables can be accessed from any part of that program, any function or conditional state can access that variable. on the other hand, a variable inside curly brackets {} or inside a specific function, are called local variables. The local variables have a very specific scope which is called the local scope. Local scope can be function scope or block scope. Within a function scope, a varible is accessible only from that function. And block scope can be defined as the scope of  inside the curly brackets {} whether these can be of loops, or conditional statements, or something else.</p>
-    
+   
+    <br>
+    <h3>How does javascript event loop work?</h3>
+    <p> <i> <strong> Answer:</strong></i> Javascript is a single threaded application which executes both synchronous and asynchrounous events. Javascript maintains these events using stack and queue. When a synchronous function is being called, there is a stack of frames which maintains these execution. But if any asynchrounous function comes, queue is used to maintain them. The event loop is the loop that continuously checking to do lists in the runtime from stack and queue. If the to do list is empty the event loop goes in the sleep mode until next messages comes.</p>
+
+    <br>
+    <h3>How we can get undefined value is Javascript?</h3>
+    <p> <i> <strong> Answer:</strong></i> In javascript we can get undefined in many cases. We can specify atleast eight cases. When a variable has no value assigned, then we can get undefined value from that varibale. If a function is declared without any return or only a return keyword without value then we also get undefined here. Any operation like adding, multiply etc with the value of undefined with give the result undefined. In any object if there we access a property which is not present, this will give undefined. Array out of index value or accessing array value which is deleted alredy, will provide undefined. Finally explicitly setting the value undefined will pr</p>
 </body>
 </html>
